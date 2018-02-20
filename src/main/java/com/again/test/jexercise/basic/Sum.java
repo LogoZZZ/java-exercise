@@ -11,13 +11,6 @@ package com.again.test.jexercise.basic;
  *
  */
 public class Sum {
-    public static void main(String[] args){
-        int sum10 = sum(10);
-        int sum100 = sum(100);
-
-        assert sum10 == 55;
-        assert sum100 == 5050;
-    }
 
     public static int sum(int n)
     {
