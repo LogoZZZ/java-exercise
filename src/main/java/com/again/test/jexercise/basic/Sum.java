@@ -14,7 +14,10 @@ public class Sum {
 
     public static int sum(int n)
     {
-        //TODO 编写实现方法
-        return -1;
+        int p=0;
+        for(int x=0;x<=n;x++){
+            p+=x;
+        }
+        return p;
     }
 }
